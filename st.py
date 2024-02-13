@@ -11,8 +11,8 @@ import streamlit as st
 import replicate, os, gdown
 from langchain_community.llms import Replicate
 from langchain.chains import RetrievalQA
-from langchain.vectorstores import FAISS
-from langchain import PromptTemplate
+from langchain_community.vectorstores import FAISS
+from langchain.prompts import PromptTemplate
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
 
