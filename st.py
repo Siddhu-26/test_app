@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import streamlit as st
-import replicate, os, gdown
+import replicate, os
 from langchain_community.llms import Replicate
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
