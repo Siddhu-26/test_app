@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1hLa695hxknNKZTWaZk7JRITo3ZUcUQYY
 """
 
-!pip install streamlit replicate langchain -q
-!pip install gdown -U --no-cache-dir -q
-
 import streamlit as st
 import replicate, os, gdown
 from langchain_community.llms import Replicate
