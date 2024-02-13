@@ -99,8 +99,8 @@ def generate_llama2_response(prompt_input):
 def gen_output(prompt_input):
 
     # Loading the FAISS index
-    url = 'https://drive.google.com/drive/folders/1VeHYh2hqKd_p_AqcWrb74iutPhpnje3r'
-    gdown.download_folder(url, quiet=True)
+    # url = 'https://drive.google.com/drive/folders/1VeHYh2hqKd_p_AqcWrb74iutPhpnje3r'
+    # gdown.download_folder(url, quiet=True)
 
     vectordb = FAISS.load_local("faiss_index", HuggingFaceEmbeddings())
 
